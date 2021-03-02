@@ -71,20 +71,20 @@ function App() {
 
       <div className="app__buttons-container">
         <button
-          className="button"
+          className="button button--start"
           onClick={start}
         >Start</button>
         <button
-          className="button"
+          className="button button--stop"
           onClick={stop}
         >Stop</button>
         <button
-          className="button"
+          className="button button--wait"
           ref={waitRef}
           onClick={wait}
         >Wait</button>
         <button
-          className="button"
+          className="button button--reset"
           onClick={reset}
         >Reset</button>
       </div>
